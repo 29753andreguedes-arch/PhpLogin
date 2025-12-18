@@ -1,5 +1,5 @@
 <?php
-include('./database/mysqli.php');
+include('.\InserirDados.php');
 ?>
 
 
@@ -26,7 +26,6 @@ include('./database/mysqli.php');
 				</th>
 				
 				
-
 				<?php
 				// Implementar uma solução mais abstracta.
 				$query = "SELECT * from users order by username";
